@@ -1,0 +1,22 @@
+.menu{
+    position: absolute;
+    /* display: flex; */
+    top: -100%;
+    right: 0;
+    border: 1px solid black;
+    background: grey;
+    color: #fff;
+    /* padding: 5px 4px; */
+    /* display: block; */
+    z-index: 3;
+    overflow: hidden;
+}
+.menu_item {
+    width: 30px;
+    cursor:pointer;
+    border: 1px solid black;
+}
+.menu_item img{
+    width: 100%;
+    height: 100%;
+}

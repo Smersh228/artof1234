@@ -1,0 +1,304 @@
+body {
+    /* background-image: url(Menu.jpg); */
+    /* background-size: cover;
+    background-attachment: fixed; */
+}
+
+.Header-Styles {
+    font-size: 1vw;
+    font-style: normal;
+    font-family: 'Engravers MT';
+    text-align: left;
+}
+
+.Play {
+    font-size: 100px;
+}
+
+/* 
+.PlayGame {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin: 0 20px 20px 0;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    vertical-align: bottom;
+    color: black;
+    background-color: #dfe6ed;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    overflow: hidden;
+    font-family: 'Engravers MT';
+}
+
+
+    .PlayGame:focus-visible {
+        box-shadow: 0 0 0 3px lightskyblue;
+    }
+
+    .PlayGame:hover {
+        border-color: transparent;
+        background-color: gray;
+        color: #fff;
+    }
+
+    .PlayGame:active {
+        border-color: #6f9cbc !important;
+        background-color: dimgrey !important;
+    }
+
+.Play-Styles {
+    background-color: #575454a5;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Cell-Rav {
+    background-image: url(test.png);
+    position: relative;
+    height: 70px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hexagon {
+    background-image: url(test1.png);
+    width: 101px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: -27px;
+    margin-top: 42px;
+}
+
+.hexagon1 {
+    background-image: url(test1.png);
+    width: 101px;
+    height: 88px;
+    margin-right: 15px;
+    margin-top: -1px;
+    margin-left: -25px;
+    
+    
+}
+
+.hexagon2 {
+    background-image: url(test1.png);
+    width: 101px;
+    height: 88px;
+    margin-right: 30px;
+    margin-top: -45px;
+    margin-left: 0px;
+}
+
+.hexagon3 {
+    background-image: url(test1.png);
+    width: 101px;
+    height: 88px;
+    margin-right: 30px;
+    margin-top: -5px;
+    margin-left: -53px;
+}
+
+
+.board {
+    width: calc(105px * 5);
+    height: calc(95px * 4);
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.hexagon4 {
+    background-image: url(test1.png);
+    width: 101px;
+    height: 88px;
+    display: flex;
+    margin-right: 30px;
+    margin-top: -47px;
+    margin-left: -55px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hexagon5 {
+    background-image: url(test1.png);
+    width: 101px;
+    height: 88px;
+    display: flex;
+    margin-right: 20px;
+    margin-top: -45px;
+}
+
+.hexagon10 {
+    background-image: url(test1.png);
+    width: 101px;
+    height: 88px;
+    display: block;
+    margin-left: -40px;
+    margin-top: 41px;
+}
+
+.hexagon11 {
+    background-image: url(test1.png);
+    width: 101px;
+    height: 88px;
+    margin-left: -25px;
+    margin-top: 0px;
+}
+
+
+
+.hexagon6 {
+    background-image: url(test1.png);
+    width: 101px;
+    height: 88px;
+    display: flex;
+    margin-top: -5px;
+    margin-left: -43px;
+}
+
+.hexagon7 {
+    background-image: url(test1.png);
+    width: 101px;
+    height: 88px;
+    margin-top: -45px;
+    margin-left: -25px;
+    
+}
+
+
+.img {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    background-color: red;
+}
+
+
+
+.available {
+    background-image: url(test2.png);
+    width: 88px;
+    height: 101px;
+}
+
+
+.flat {
+    background-image: url(test1.png);
+    width: 101px;
+    height: 88px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.straighroad {
+    background-image: url(doroga3.png);
+    height: 88px;
+    width: 101px;
+}
+
+.forest {
+    background-image: url(les.png);
+    height: 88px;
+    width: 101px;
+}
+
+
+
+.lightforest {
+    background-image: url(test1.png);
+    height: 88px;
+    width: 101px;
+}
+
+.shrubs {
+    background-image: url(kustr.png);
+    height: 88px;
+    width: 101px;
+}
+
+
+.parasa {
+    background-image: url(Menu.jpg)
+}
+
+
+svg .base g {
+    fill: aqua;
+}
+
+
+
+.selected {
+    filter: hue-rotate(300deg) contrast(150%);
+}
+
+
+.units {
+    width: 50px;
+    height: 45px;
+    float: left;
+    display: block;
+    background-image: url(t-26k.png)
+}
+
+.t26 {
+    background-image: url(t-26k.png);
+    height: 45px;
+    width: 50px;
+}
+
+
+.infantryver {
+    background-image: url(pz2.png);
+    width: 50px;
+    height: 45px;
+}
+
+.tooltip {
+   background-color: white;
+   width: 100px;
+   height: 50px;
+   font-size: 14px;
+   font-family: 'Times New Roman', Times, serif;
+   z-index: 5;
+   visibility: visible;
+   position: relative;
+   
+}
+
+.toolti {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 5;
+    visibility: visible;
+    position: relative;
+}
+
+.sss {
+    background-image: url(1234.png);
+    width: 35px;
+    height: 20px;
+
+} */

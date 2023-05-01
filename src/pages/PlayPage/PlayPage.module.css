@@ -1,0 +1,125 @@
+div {
+
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.tanks {
+  background-image: url(tanks2.jpg);
+   width: 500px;
+   height: 500px;
+   margin-bottom: 500px;
+   
+}
+.container1 {
+    background-image: url(tanks2.jpg);
+  width: 700px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+
+
+}
+
+.container2 {
+    background-image: url(tanks.jpg);
+  width: 700px;
+  height: 400px;
+  margin-top: -400px;
+  margin-left: 1000px;
+  border-radius: 20px;
+  cursor: pointer;
+ 
+
+}
+
+.container3 {
+   background-color: rgba(83, 85, 85, 0.267);
+   width: auto;
+   height: 700px;
+  
+
+
+}
+.container {
+ background-image: url(Menu.jpg); 
+     background-size: cover;
+    background-attachment: fixed;
+}
+
+.navBar_item{
+    padding: 10px;
+    border: 3px solid rgb(92, 84, 84);
+    margin-right: 10px;
+    font-size: 30px;
+    color: rgb(224, 194, 194);
+    background-color: rgb(75, 56, 56);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+   
+}
+.navBar_item:last-child{
+    margin-right: 0;
+}
+
+.navBar_item:hover{
+    padding: 10px;
+    border: 3px solid rgb(78, 32, 32);
+    font-size: 30px;
+    color: black;
+    background-color: rgb(114, 82, 82);
+    transition: 0.3s;
+}
+
+.mission_text1 {
+ font-size: 18px;
+ text-align: center;
+
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mission_text {
+    color: antiquewhite;
+    font-size: 24px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+.navBar_item1 {
+    padding: 10px;
+    border: 3px solid rgb(92, 84, 84);
+    margin-left: 880px;
+    width: 110px;
+    font-size: 30px;
+    color: rgb(224, 194, 194);
+    background-color: rgb(75, 56, 56);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+
+
+}
+
+.navBar_item1:hover{
+    padding: 10px;
+    border: 3px solid rgb(78, 32, 32);
+    font-size: 30px;
+    color: black;
+    background-color: rgb(114, 82, 82);
+    transition: 0.3s;
+}
+
+.container111 {
+
+ 
+  transition: 3s;
+}
+

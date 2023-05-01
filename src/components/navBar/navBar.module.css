@@ -1,0 +1,63 @@
+.main_text {
+ color: black;
+ margin-left: 800px;
+ background-color: rgba(219, 213, 205, 0.418);
+ border-radius: 5px;
+ font-size: 46px;
+}
+
+.main_text:hover {
+    color: rgb(199, 25, 25);
+    margin-left: 800px;
+    background-color: rgba(240, 234, 227, 0.63);
+    border-radius: 5px;
+    font-size: 46px;
+    transition: 0.5s;
+    cursor: pointer;
+   }
+.navBar{
+width: 100%;
+display: flex;
+
+align-items: center;
+}
+.navBar a{
+    text-decoration: none;
+}
+.navBar_item{
+    padding: 10px;
+    border: 3px solid rgb(92, 84, 84);
+    margin-right: 0px;
+    font-size: 30px;
+    color: rgb(224, 194, 194);
+    background-color: rgb(75, 56, 56);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+.navBar_item:last-child{
+    margin-right: 0;
+}
+
+.navBar_item:hover{
+    padding: 10px;
+    border: 3px solid rgb(78, 32, 32);
+    font-size: 30px;
+    color: black;
+    background-color: rgb(114, 82, 82);
+    transition: 0.3s;
+}
+
+.navBar_item1 {
+    padding: 10px;
+    border: 3px solid rgb(92, 84, 84);
+    margin-left: 500px;
+    font-size: 30px;
+    color: rgb(224, 194, 194);
+    background-color: rgb(75, 56, 56);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+
+
+}
